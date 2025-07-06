@@ -34,5 +34,12 @@ def number_guessing_game_created():
     if attempts == 5:
         print("You have used all your attempts. The secret number was:", secret_number)
 
+        # Offer a rematch
+        rematch = input("Do you want to play again? (yes/no): ")
+        if rematch.lower() == "yes":
+            number_guessing_game_created()
+        else:
+            print("Thank you for playing!")
+
 # Call the function to start the game
 number_guessing_game_created()
