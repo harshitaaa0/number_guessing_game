@@ -1,6 +1,4 @@
-
 # 🎯 Number Guessing Game – Requirements
-
 
 ## ✅ Core Features
 
@@ -37,9 +35,7 @@ The game provides feedback after each guess:
 
 * The user is given a **maximum of 5 attempts**.
 
-
 ### 🧼 Invalid Input Handling
 
 * ✔️ Catches **ValueError** when non-integer input is entered.
   Displays: **"Please enter a valid integer!"**
-
