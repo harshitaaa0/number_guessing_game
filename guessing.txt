@@ -1,0 +1,45 @@
+
+# 🎯 Number Guessing Game – Requirements
+
+
+## ✅ Core Features
+
+### 🔢 Random Number Generation
+
+* A unique number is generated between **0 and 99** using the current timestamp.
+
+### 👤 User Input
+
+* The user is prompted to **guess the number**.
+
+### 📣 Feedback
+
+The game provides feedback after each guess:
+
+* **“Too High”** – when the guess is greater than the number.
+* **“Too Low”** – when the guess is less than the number.
+* **“Correct!”** – when the guess matches the number.
+
+### 🧮 Guess Counter
+
+* Counts and tracks the number of attempts taken by the user.
+
+### 🛑 Game End
+
+* The game ends either when the user guesses the number correctly **or** exhausts the **5 allowed attempts**.
+
+### 🔁 🎮 Play Again Option
+
+* After the game ends, the user is asked:
+  **“Do you want to play again? (yes/no)”**
+
+### ⏳ 🧠 Limit Number of Guesses
+
+* The user is given a **maximum of 5 attempts**.
+
+
+### 🧼 Invalid Input Handling
+
+* ✔️ Catches **ValueError** when non-integer input is entered.
+  Displays: **"Please enter a valid integer!"**
+
